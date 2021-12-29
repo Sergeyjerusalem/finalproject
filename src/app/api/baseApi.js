@@ -4,7 +4,7 @@ const printer = require('../../config/logger/logger')
 class BaseApi {
     constructor() {
         this.axios = axios;
-        this.axios.defaults.baseURL = 'https://cdn-resources.ableton.com/';
+        this.axios.defaults.baseURL = 'https://www.ableton.com';
     }
     
 

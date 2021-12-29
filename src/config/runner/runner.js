@@ -14,7 +14,7 @@ const allure = require('allure-commandline');
       .screenshots('./allure/screenshots', true)
       .run({
         skipJsErrors: true,
-        selectorTimeout: 50000,
+        selectorTimeout: 15000,
         assertionTimeout: 7000,
         pageLoadTimeout: 8000,
       });
