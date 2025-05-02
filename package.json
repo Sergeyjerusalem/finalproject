@@ -10,7 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "allure-commandline": "^2.13.8",
     "axios": "^0.24.0",
     "chai": "^4.3.4",
     "chai-json-schema": "^1.5.1",
@@ -19,5 +18,8 @@
     "testcafe": "^1.17.1",
     "testcafe-reporter-allure": "^1.0.5",
     "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "allure-commandline": "^2.34.0"
   }
 }
