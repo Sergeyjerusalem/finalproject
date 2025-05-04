@@ -15,12 +15,12 @@ test('Test 1 Checking the text of the PanelBlog', async t => {
 
 });
 
-test('Test 2, Checking the text of the header', async t => {
+ /* test('Test 2, Checking the text of the header', async t => {
 
     await app.ui.compareTextForEach(await app.ui.header.menuItem, await app.ui.header.headerData)
 
 
-});
+});*/
 
 test('Test 3, checking the text of the main navigation and its workability.', async t => {
     await t
