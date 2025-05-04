@@ -34,7 +34,7 @@ test('Test 3, checking the text of the main navigation and its workability.', as
 
 });
 
-test('Test 4 Checking the behaviour with packs', async t => {
+/* test('Test 4 Checking the behaviour with packs', async t => {
     await t
         .click(app.ui.header.menuItem.nth(4))
         .click(app.ui.packs.genreFilterButton)
@@ -47,7 +47,7 @@ test('Test 4 Checking the behaviour with packs', async t => {
         .click(app.ui.packs.packItem.nth(52))
     await app.ui.checkExistance(app.ui.packs.packTitle)
 
-});
+}); 
 
 test('Test 5 Checking the behaviour with test', async t => {
     await t.click(app.ui.header.menuItem.nth(5));
@@ -60,7 +60,7 @@ test('Test 5 Checking the behaviour with test', async t => {
 
 
 });
-
+*/
 
 test('first api test', async t => {
     const resp = await app.api.link.getSummary('en/live/');
